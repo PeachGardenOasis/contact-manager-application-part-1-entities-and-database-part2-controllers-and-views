@@ -75,3 +75,4 @@ C:\Users\simon\Documents\`School\`T127 SEM 4\[C#] Web Application Development\w4
 C:\Users\simon\Documents\`School\`T127 SEM 4\[C#] Web Application Development\w4-02-02\lab3 v2\Lab3Contact Manager Application\obj\Debug\netcoreapp3.1\Lab3Contact Manager Application.dll
 C:\Users\simon\Documents\`School\`T127 SEM 4\[C#] Web Application Development\w4-02-02\lab3 v2\Lab3Contact Manager Application\obj\Debug\netcoreapp3.1\Lab3Contact Manager Application.pdb
 C:\Users\simon\Documents\`School\`T127 SEM 4\[C#] Web Application Development\w4-02-02\lab3 v2\Lab3Contact Manager Application\obj\Debug\netcoreapp3.1\Lab3Contact Manager Application.genruntimeconfig.cache
+C:\Users\simon\Documents\`School\`T127 SEM 4\[C#] Web Application Development\w4-02-02\lab3 v2\Lab3Contact Manager Application\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs

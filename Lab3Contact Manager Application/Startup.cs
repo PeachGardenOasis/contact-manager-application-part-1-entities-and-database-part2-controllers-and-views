@@ -32,7 +32,7 @@ namespace Lab3Contact_Manager_Application
             services.AddControllersWithViews();
 
             services.AddDbContext<ContactContext>(options =>
-            options.UseSqlServer(Configuration.GetConnectionString("ContactContext")));
+            options.UseSqlServer(Configuration.GetConnectionString("ContactContext"))); // connect this to sql database
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -50,7 +50,9 @@ namespace Lab3Contact_Manager_Application
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}/{slug?}"); // trailing slug optional
+                    pattern: "{controller=Home}/{action=Index}/{id?}/{slug?}"); // trailing slug optional parameter which can be passed as url
+                // which is a concatonation of 
+                // first name and last name in contact.cs
             });
         }
     }
